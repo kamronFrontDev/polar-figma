@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: #f2ceda;
+}
+.container {
+    max-width: 1280px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.n_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.n_center {
+    display: flex;
+    gap: 30px;
+}
+
+.n_center a {
+    color: #150101c7;
+    font-size: 18px;
+}
+
+.n_right button {
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: #d64374;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: 90vh;
+    background-color: #f2ceda;
+}
+
+.h_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h_left h1 {
+    font-size: 58px;
+}
+
+.h_left h1 span {
+    color: #d64374;
+}
+
+.h_left button {
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: #d64374;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 30px;
+}
+section {
+    width: 100%;
+    height: 30vh;
+}
+.s_main {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 35px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 80px;
+}
+.s_center {
+    text-align: center;
+    box-shadow: 7px 10px 13px 0px rgba(34, 60, 80, 0.2);
+    width: 250px;
+    height: 205px;
+    padding: 20px 0px;
+}
+.s_center h1 {
+    margin: 20px;   
+}
+.s_center p {
+    color: gray;
+}
+aside {
+    width: 100%;
+    height: 50vh;
+    background-color: #f2ceda;
+}
+.a_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.a_left h1 {
+    font-size: 44px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.a_left button {
+    background-color: #d64374;
+    color: #fff;
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 30px;
+}
+footer {
+    padding: 40px 0;
+}
+
+footer h1 {
+    text-align: center;
+    font-size: 43px;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.wrap1 {
+    width: 100%;
+    height: 415px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.wrap1 span {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.wrap1 img {
+    width: 100%;
+    max-width: 580px;
+}
+
+.class a {
+    text-decoration: line-through;
+    font-size: 20px;
+}
+
+sub {
+    display: flex;
+    gap: 5px;
+    font-size: 26px;
+}
+
+.wrap1 button {
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: #d23166;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+span p {
+    font-size: 16px;
+}
+
+.wrap2 {
+    width: 100%;
+    height: 415px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.wrap2 img {
+    width: 100%;
+    max-width: 580px;
+}
+
+.class2 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+}
+
+.class2 h3 {
+    font-size: 26px;
+}
+
+.class2 p {
+    font-size: 16px;
+}
+
+.class2 button {
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: #d23166;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.wrap3 {
+    width: 100%;
+    height: 415px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.wrap3 img {
+    width: 100%;
+    max-width: 580px;
+}
+
+.class3 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.class3 h3 {
+    font-size: 26px;
+}
+
+.class3 p {
+    font-size: 16px;
+}
+
+.class3 button {
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: #d23166;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* .card img {
+width: 100%;
+}
+.card {
+    width: 100%;
+    border: 2px solid limegreen;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+} */
