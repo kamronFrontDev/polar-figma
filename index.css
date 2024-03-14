@@ -137,7 +137,9 @@ footer h1 {
     text-align: center;
     font-size: 43px;
 }
-
+a {
+    color: #000000;
+}
 .categories {
     display: flex;
     justify-content: center;
